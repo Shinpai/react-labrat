@@ -5,6 +5,7 @@ import Title from './Pages/Title'
 import About from './Pages/About'
 import Form from './Pages/Form'
 import Calc from './Pages/Calc'
+import Task from './Pages/Task'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" component={Title} />
         <Route path="/form" component={Form} />
         <Route path="/calc" component={Calc} />
+        <Route path="/task" component={Task} />
         <Route path="/about" component={About} />
       </div>
     </Router>

@@ -1,5 +1,6 @@
 import React from 'react'
 import NavHeader from '../components/NavHeader'
+import Calculator from '../components/Calculator'
 import './Pages.css'
 
 function Calc() {
@@ -7,6 +8,7 @@ function Calc() {
     <div className="Calc">
       <NavHeader/>
       <h4>Laskuri, pysyvä tieto</h4>
+      <Calculator/>
     </div>
   )
 }

@@ -5,6 +5,7 @@ const pages = {
   '/': 'Title',
   '/form': 'Form',
   '/calc': 'Calc',
+  '/task': 'Task',
   '/about': 'About'
 }
 
